@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="info">program liczy sume dwoch liczb</string>
+    <string name="app_name">Android_suma</string>
+    <string name="etykieta_liczba_a">0</string>
+    <string name="etykieta_liczba_b">0</string>
+    <string name="etykieta_liczba_c">0</string>
+    <string name="etykieta_licz_sume">licz sume</string>
+    <string name="etykieta_wyjscie_z_aplikacji">wyjscie</string>
+
+</resources>

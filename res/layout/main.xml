@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info" />
+    <EditText
+        android:id="@+id/pole_tekstowe_liczba_a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="@string/etykieta_liczba_a"
+        />
+    <EditText
+        android:id="@+id/pole_tekstowe_liczba_b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="@string/etykieta_liczba_b"
+        />
+    <EditText
+        android:id="@+id/pole_tekstowe_liczba_c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etykieta_liczba_c" 
+        />    
+    <Button 
+        android:id="@+id/przycisk_licz_sume"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etykieta_licz_sume"         
+        />
+    <Button 
+        android:id="@+id/przycisk_wyjscie"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/etykieta_wyjscie_z_aplikacji"         
+        />    
+</LinearLayout>
